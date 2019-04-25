@@ -1,1 +1,4 @@
+second highest salary in sql query:
+
 SELECT MAX(salary) FROM employee WHERE salary NOT IN (SELECT MAX(salary) FROM employee ) group by emp_id
+-------------------------------------
